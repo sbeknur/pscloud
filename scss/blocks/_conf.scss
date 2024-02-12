@@ -1,0 +1,132 @@
+.conf {
+    padding: 34px 70px 36px 40px;
+
+    background: #fff;
+    border-radius: 20px;
+
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 22px;
+    }
+
+    &__row {
+        display: flex;
+        gap: 50px;
+
+        margin-bottom: 32px;
+
+        &_m-21 {
+            margin-bottom: 21px;
+        }
+    }
+
+    &__item {
+        flex-basis: 490px;
+        width: 100%
+        ;
+        display: flex;
+        gap: 20px;
+
+        &_cpu {
+            // max-width: 1030px;
+
+            flex-basis: 1030px;
+        }
+
+        &_ip {
+            align-items: center;
+        }
+    }
+
+    &-param {
+        max-width: 434px;
+        width: 100%;
+
+        &_cpu {
+            max-width: 974px;
+        }
+        &__body {
+            position: relative;
+            margin-bottom: 11px;
+
+            &_priceless {
+                margin-bottom: 0;
+            }
+        }
+
+        &__label {
+            position: absolute;
+            top: -10px;
+            left: 15px;
+            padding: 0 8px;
+            background: #fff;
+
+            font-size: 11px;
+
+            &_info {
+                display: flex;
+                gap: 3px;
+            }
+        }
+
+        &__select {
+            width: 100%;
+            padding: 9px 34px 9px 17px;
+
+            line-height: 18px;
+            font-weight: 700;
+
+            border: 1px solid #bdcdd6;
+            border-radius: 7px;
+            outline: none;
+
+            background: #fff url(../img/icons/arrow.svg) no-repeat right 17px center;
+            appearance: none;
+        }
+
+        &__price {
+            font-weight: 700;
+
+            border-bottom: 1px dashed #20a8d8;
+        }
+    }
+
+    &__desc {
+        color: #3e515b;
+        font-size: 14px;
+        margin: 20px 0 32px;
+
+        &_ip {
+            max-width: 322px;
+            margin: 0;
+        }
+
+        &_price {
+            max-width: 404px;
+            font-size: 13px;
+            margin: 0;
+        }
+    }
+
+    &__price {
+        text-wrap: nowrap;
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 700;
+
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+        gap: 5px;
+
+        & span {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        &_total {
+            margin-right: 40px;
+        }
+    }
+}

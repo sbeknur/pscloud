@@ -1,0 +1,52 @@
+.icon {
+    min-width: 36px;
+    max-width: 36px;
+    height: 36px;
+
+    &_ip {
+        min-width: 26px;
+        max-width: 26px;
+    }
+
+    &_info {
+        position: relative;
+        top: -3px;
+        min-width: 16px;
+        max-width: 16px;
+        height: 16px;
+    }
+
+    &_social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 59px;
+        max-width: 59px;
+        height: 59px;
+        background: #edeff4;
+        border-radius: 10px;
+    }
+
+    &__image {
+        fill: #20a8d8 !important;
+
+        width: 36px;
+        height: 36px ;
+
+        &_info {
+            width: 16px ;
+            height: 16px;
+        }
+
+        &_ip {
+            width: 26px;
+            height: 36px;
+        }
+
+        &_social {
+            width: 30px;
+            height: 30px;
+            fill: #9D9FA7 !important;
+        }
+    }
+}

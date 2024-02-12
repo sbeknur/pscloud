@@ -1,0 +1,21 @@
+.content {
+    margin-top: 140px;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+
+    &__item {
+        &_price {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__block {
+        background: #fff;
+    }
+}

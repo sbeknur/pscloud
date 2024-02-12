@@ -1,0 +1,119 @@
+@media (max-width: 1920px) {
+    .container {
+        max-width: calc(1680px + 40px);
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .conf {
+        padding: 34px;
+
+        &__row {
+            gap: 25px;
+        }
+
+        &__item {
+            gap: 10px;
+        }
+    }
+}
+
+@media (max-width: 901px) {
+    .conf {
+        padding: 20px;
+        &__row {
+            flex-wrap: wrap;
+        }
+
+        &__item {
+            flex-basis: calc((100% - 25px) / 2);
+        }
+
+        &__price {
+            &_total {
+                margin-right: 0;
+            }
+        }
+
+        &__desc {
+            &_price {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .content {
+        &__item {
+            &_price {
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+        }
+    }
+
+    .button {
+        &_add {
+            &-cart {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .footer {
+        &__items {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .conf {
+        &__item {
+            flex-basis: 100%;
+        }
+
+        &-param {
+            max-width: 628px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        &__item {
+            &_price {
+                justify-content: center;
+            }
+        }
+    }
+
+    .button {
+        &__add {
+            &_server {
+                align-self: center;
+            }
+        }
+    }
+
+    .footer {
+        text-align: center;
+
+        &__inner {
+            padding: 40px 0;
+        }
+
+        &__items {
+            justify-content: center;
+        }
+    }
+
+    .sidebar {
+        left: -60px;
+    }
+
+    .main {
+        left: 0;
+        width: 100vw;
+    }
+}

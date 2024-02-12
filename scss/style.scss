@@ -1,0 +1,39 @@
+@import "base/_reset";
+@import "base/_font";
+
+html {
+    font-size: 16px;
+}
+
+body {
+    color: #22232B;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    background: #e6ebef;
+}
+
+.container {
+    max-width: calc(1680px + 180px);
+    margin: 0 auto;
+    padding: 0 90px;
+}
+
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+@import "blocks/_sidebar";
+@import "blocks/_main";
+@import "blocks/_content";
+@import "blocks/_conf";
+@import "blocks/_icon";
+@import "blocks/_button";
+@import "blocks/_footer";
+@import "base/_media";
